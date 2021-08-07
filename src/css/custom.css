@@ -2,8 +2,8 @@
 @font-face {
   font-family: "NewYorkExtraLarge-Medium";
   src: ("../fonts/NewYorkExtraLarge-Medium.eot");
-  src: local("New York Extra Large Medium"), local("NewYorkExtraLarge-Medium"), ("../fontsNewYorkExtraLarge-Medium.eot?#iefix") format("embedded-opentype"), ("../fontsNewYorkExtraLarge-Medium.woff2") format("woff2"), ("../fontsNewYorkExtraLarge-Medium.woff") format("woff"),
-    ("../fontsNewYorkExtraLarge-Medium.ttf") format("truetype"), ("../fontsNewYorkExtraLarge-Medium.svg#NewYorkExtraLarge-Medium") format("svg");
+  src: local("New York Extra Large Medium"), local("NewYorkExtraLarge-Medium"), ("../fonts/NewYorkExtraLarge-Medium.eot?#iefix") format("embedded-opentype"), ("../fonts/NewYorkExtraLarge-Medium.woff2") format("woff2"), ("../fonts/NewYorkExtraLarge-Medium.woff") format("woff"),
+    ("../fonts/NewYorkExtraLarge-Medium.ttf") format("truetype"), ("../fonts/NewYorkExtraLarge-Medium.svg#NewYorkExtraLarge-Medium") format("svg");
   font-weight: 500;
   font-style: normal;
   font-display: swap;
@@ -11,9 +11,9 @@
 
 @font-face {
   font-family: "Metropolis-ExtraLight";
-  src: ("../fontsMetropolis-ExtraLight.eot");
-  src: local("Metropolis Extra Light"), local("Metropolis-ExtraLight"), ("../fontsMetropolis-ExtraLight.eot?#iefix") format("embedded-opentype"), ("../fontsMetropolis-ExtraLight.woff2") format("woff2"), ("../fontsMetropolis-ExtraLight.woff") format("woff"),
-    ("../fontsMetropolis-ExtraLight.ttf") format("truetype"), ("../fontsMetropolis-ExtraLight.svg#Metropolis-ExtraLight") format("svg");
+  src: ("../fonts/Metropolis-ExtraLight.eot");
+  src: local("Metropolis Extra Light"), local("Metropolis-ExtraLight"), ("../fonts/Metropolis-ExtraLight.eot?#iefix") format("embedded-opentype"), ("../fonts/Metropolis-ExtraLight.woff2") format("woff2"), ("../fonts/Metropolis-ExtraLight.woff") format("woff"),
+    ("../fonts/Metropolis-ExtraLight.ttf") format("truetype"), ("../fonts/Metropolis-ExtraLight.svg#Metropolis-ExtraLight") format("svg");
   font-weight: 200;
   font-style: normal;
   font-display: swap;
@@ -21,9 +21,9 @@
 
 @font-face {
   font-family: "Metropolis-SemiBold";
-  src: ("../fontsMetropolis-SemiBold.eot");
-  src: local("Metropolis Semi Bold"), local("Metropolis-SemiBold"), ("../fontsMetropolis-SemiBold.eot?#iefix") format("embedded-opentype"), ("../fontsMetropolis-SemiBold.woff2") format("woff2"), ("../fontsMetropolis-SemiBold.woff") format("woff"),
-    ("../fontsMetropolis-SemiBold.ttf") format("truetype"), ("../fontsMetropolis-SemiBold.svg#Metropolis-SemiBold") format("svg");
+  src: ("../fonts/Metropolis-SemiBold.eot");
+  src: local("Metropolis Semi Bold"), local("Metropolis-SemiBold"), ("../fonts/Metropolis-SemiBold.eot?#iefix") format("embedded-opentype"), ("../fonts/Metropolis-SemiBold.woff2") format("woff2"), ("../fonts/Metropolis-SemiBold.woff") format("woff"),
+    ("../fonts/Metropolis-SemiBold.ttf") format("truetype"), ("../fonts/Metropolis-SemiBold.svg#Metropolis-SemiBold") format("svg");
   font-weight: 600;
   font-style: normal;
   font-display: swap;
@@ -31,9 +31,9 @@
 
 @font-face {
   font-family: "Metropolis-Regular";
-  src: ("../fontsMetropolis-Regular.eot");
-  src: local("Metropolis Regular"), local("Metropolis-Regular"), ("../fontsMetropolis-Regular.eot?#iefix") format("embedded-opentype"), ("../fontsMetropolis-Regular.woff2") format("woff2"), ("../fontsMetropolis-Regular.woff") format("woff"), ("../fontsMetropolis-Regular.ttf") format("truetype"),
-    ("../fontsMetropolis-Regular.svg#Metropolis-Regular") format("svg");
+  src: ("../fonts/Metropolis-Regular.eot");
+  src: local("Metropolis Regular"), local("Metropolis-Regular"), ("../fonts/Metropolis-Regular.eot?#iefix") format("embedded-opentype"), ("../fonts/Metropolis-Regular.woff2") format("woff2"), ("../fonts/Metropolis-Regular.woff") format("woff"), ("../fonts/Metropolis-Regular.ttf") format("truetype"),
+    ("../fonts/Metropolis-Regular.svg#Metropolis-Regular") format("svg");
   font-weight: normal;
   font-style: normal;
   font-display: swap;
