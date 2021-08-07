@@ -8,13 +8,14 @@ module.exports = {
         "secondary-color": "#AAAAAA",
         "tertiary-color": "#222222",
         "quaternary-color": "#EEEEEE",
+        "quinary-color": "#333333",
         dim: "#1a1a1a",
       },
       fontFamily: {
-        "ny-medium": "new_york_extra_largemedium, serif",
-        "metro-regular": "metropolisregular, sans-serif",
-        "metro-extralight": "metropolisextra_light, sans-serif",
-        "metro-semibold": "metropolissemi_bold, sans-serif",
+        "ny-medium": "NewYorkExtraLarge-Medium, serif",
+        "metro-regular": "Metropolis-Regular, sans-serif",
+        "metro-extralight": "Metropolis-ExtraLight, sans-serif",
+        "metro-semibold": "Metropolis-SemiBold, sans-serif",
       },
       height: {
         425: "425px",
