@@ -1,3 +1,32 @@
+/* Local Fonts */
+@font-face {
+  font-family: "metropolisextra_light";
+  src: url("../fonts/metropolis-extralight-webfont.woff2") format("woff2"), url("../fonts/metropolis-extralight-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "metropolisregular";
+  src: url("../fonts/metropolis-regular-webfont.woff2") format("woff2"), url("../fonts/metropolis-regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "metropolissemi_bold";
+  src: url("../fonts/metropolis-semibold-webfont.woff2") format("woff2"), url("../fonts/metropolis-semibold-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "new_york_extra_largemedium";
+  src: url("../fonts/newyorkextralarge-medium-webfont.woff2") format("woff2"), url("../fonts/newyorkextralarge-medium-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
 .break-mob {
   display: inline;
 }
