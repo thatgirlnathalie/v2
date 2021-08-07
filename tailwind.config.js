@@ -12,10 +12,10 @@ module.exports = {
         dim: "#1a1a1a",
       },
       fontFamily: {
-        "ny-medium": "NewYorkExtraLarge-Medium, serif",
-        "metro-regular": "Metropolis-Regular, sans-serif",
-        "metro-extralight": "Metropolis-ExtraLight, sans-serif",
-        "metro-semibold": "Metropolis-SemiBold, sans-serif",
+        "ny-medium": "NewYorkExtraLarge_Medium, serif",
+        "metro-regular": "Metropolis_Regular, sans-serif",
+        "metro-extralight": "Metropolis_ExtraLight, sans-serif",
+        "metro-semibold": "Metropolis_SemiBold, sans-serif",
       },
       height: {
         425: "425px",
