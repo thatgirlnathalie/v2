@@ -1,0 +1,25 @@
+{
+  "name": "ninanathalie.github.io",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tailwind build build/style.css -o src/css/style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ninanathalie/ninanathalie.github.io.git"
+  },
+  "keywords": [],
+  "author": "Niña Nathalie",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ninanathalie/ninanathalie.github.io/issues"
+  },
+  "homepage": "https://github.com/ninanathalie/ninanathalie.github.io#readme",
+  "devDependencies": {
+    "autoprefixer": "^10.3.1",
+    "postcss": "^8.3.6",
+    "tailwindcss": "^2.2.7"
+  }
+}
