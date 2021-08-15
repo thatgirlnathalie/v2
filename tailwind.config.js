@@ -10,6 +10,9 @@ module.exports = {
         "quaternary-color": "#EEEEEE",
         "quinary-color": "#333333",
         "senary-color": "#f4f4f4",
+        "purple": "#E7D6E0",
+        "purple-light": "#F6EFF4",
+        "yellow-light": "#FDFCF5",
         dim: "#1a1a1a",
       },
       fontFamily: {
