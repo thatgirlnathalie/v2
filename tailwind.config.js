@@ -9,11 +9,15 @@ module.exports = {
         "tertiary-color": "#222222",
         "quaternary-color": "#EEEEEE",
         "quinary-color": "#333333",
-        "senary-color": "#f4f4f4",
-        "nn-purple": "#E7D6E0",
-        "nn-purple-light": "#F6EFF4",
-        "nn-yellow-light": "#FDFCF5",
-        dim: "#1a1a1a",
+        "senary-color": "#F4F4F4",
+        "septenary-color": "#1A1A1A",
+        // brown palette
+        "brown-primary-color": "#E5C697",
+        "brown-secondary-color": "#F5E7D1",
+        "brown-tertiary-color": "#BF8427",
+        "brown-quaternary-color": "#FFF8ED",
+        //other-colors
+        "green-primary-color": "#73C851",
       },
       fontFamily: {
         "ny-medium": "NewYorkExtraLarge_Medium, serif",
