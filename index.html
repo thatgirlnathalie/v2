@@ -31,7 +31,7 @@
     <div class="md:my-3.5">
       <header>
         <div class="navigation-n fixed inset-x-0 bg-white dark:bg-septenary-color z-10">
-          <nav class="container px-10 sm:px-16 md:px-16 lg:px-4">
+          <nav class="container px-8 sm:px-14 md:px-14 lg:px-4">
             <div class="flex items-center flex-wrap py-4 border-b-2 border-quaternary-color">
               <a href="/">
                 <svg width="46" height="46" viewBox="0 0 46 46" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -52,23 +52,23 @@
               </button>
 
               <div class="hidden top-navbar w-full md:inline-flex md:flex-grow md:w-auto" id="navigation">
-                <div class="flex flex-col md:inline-flex md:flex-row md:ml-auto items-center uppercase gap-8 md:gap-12 text-xs">
-                  <a href="/" class="md:inline-flex md:w-auto hover:text-secondary-color">
-                    <span class="align-middle py-2">Home</span>
+                <div class="flex flex-col md:inline-flex md:flex-row md:ml-auto items-center uppercase md:gap-12 text-xs">
+                  <a href="/" class="min-w-full md:min-w-0 text-center md:inline-flex md:w-auto hover:text-secondary-color border-b md:border-0 border-quaternary-color">
+                    <span class="block align-middle py-4 md:py-2">Home</span>
                   </a>
-                  <a href="/case-studies/" class="md:inline-flex md:w-auto hover:text-secondary-color">
-                    <span class="align-middle py-2">Case Studies</span>
+                  <a href="/case-studies/" class="min-w-full md:min-w-0 text-center md:inline-flex md:w-auto hover:text-secondary-color border-b md:border-0 border-quaternary-color">
+                    <span class="block align-middle py-4 md:py-2">Case Studies</span>
                   </a>
-                  <a href="/about/" class="md:inline-flex md:w-auto hover:text-secondary-color">
-                    <span class="align-middle py-2">About</span>
+                  <a href="/about/" class="min-w-full md:min-w-0 text-center md:inline-flex md:w-auto hover:text-secondary-color border-b md:border-0 border-quaternary-color">
+                    <span class="block align-middle py-4 md:py-2">About</span>
                   </a>
-                  <a href="src/pdf/nina-nathalie-resume.pdf" class="md:inline-flex md:w-auto hover:text-secondary-color">
-                    <span class="align-middle py-2">Resume</span>
+                  <a href="src/pdf/nina-nathalie-resume.pdf" class="min-w-full md:min-w-0 text-center md:inline-flex md:w-auto hover:text-secondary-color border-b md:border-0 border-quaternary-color">
+                    <span class="block align-middle py-4 md:py-2">Resume</span>
                   </a>
-                  <a href="/contact/" class="md:inline-flex md:w-auto hover:text-secondary-color">
-                    <span class="align-middle py-2">Contact</span>
+                  <a href="/contact/" class="min-w-full md:min-w-0 text-center md:inline-flex md:w-auto hover:text-secondary-color">
+                    <span class="block align-middle py-4 md:py-2">Contact</span>
                   </a>
-                  <button id="switchTheme" class="justify-center cursor-pointer hover:text-secondary-color">
+                  <button id="switchTheme" class="justify-center cursor-pointer hover:text-secondary-color hide-mobile">
                     <i class="w-6 h-6 uil uil-moon change-theme cursor-pointer text-lg leading-none" id="theme-button"></i>
                   </button>
                 </div>
@@ -79,13 +79,13 @@
       </header>
 
       <section>
-        <div class="container pt-20 px-10 sm:px-16 md:px-16 lg:px-4">
+        <div class="container pt-20 px-8 sm:px-14 md:px-14 lg:px-4">
           <div class="nn-title border-b-2 border-quaternary-color py-10 sm:py-16">
             <div class="grid md:grid-cols-3 grid-rows-1">
               <div class="md:col-span-2">
                 <h1 class="font-ny-medium sm:text-4xl text-3xl font-medium pb-2 md:pb-5">
                   Hello, I am Niña Nathalie 👋🏼
-                  <br />
+                  <br class="break-mob" />
                   I’m a UI/UX designer based in Dubai.
                 </h1>
 
@@ -96,7 +96,7 @@
                     >Building a seamless experience for the user and much more is like
                     <span
                       class="typewriter-text text-brown-tertiary-color dark:text-brown-primary-color font-light pr-2.5 border-r border-primary-color dark:border-white"
-                      data-text='[ "building a better future.", "creating experiences that makes people&apos;s lives easy", "creating products that fit the lives and needs of users." ]'
+                      data-text='[ "building a better future.", "creating experiences that makes people&apos;s lives easy.", "creating products that fit the lives and needs of users." ]'
                     ></span
                   ></span>
                 </p>
@@ -112,12 +112,12 @@
 
       <section>
         <div class="nn-featured pt-10 md:pt-16">
-          <div class="container px-10 sm:px-16 md:px-16 lg:px-4">
+          <div class="container px-8 sm:px-14 md:px-14 lg:px-4">
             <div class="nn-featured mb-12 lg:mb-20 xl:mb-28">
               <h3 class="font-metro-semibold font-semibold text-secondary-color">Here are some of my recent works:</h3>
             </div>
           </div>
-          <div class="nn-featured px-10 sm:px-16 md:px-16 lg:px-4">
+          <div class="nn-featured px-8 sm:px-14 md:px-14 lg:px-4">
             <div class="lg:bg-gray-50 dark:bg-septenary-color lg:dark:bg-tertiary-color lg:h-380 xl:h-320 w-full flex items-center justify-center lg:mb-28 xl:mb-36 mb-6">
               <div class="container lg:flex items-center lg:-space-x-32 px-0">
                 <div class="lg:w-5/6 w-full lg:h-425 h-320 bg-brown-primary-color"></div>
@@ -132,7 +132,7 @@
               </div>
             </div>
           </div>
-          <div data-aos="fade-in" class="nn-featured px-10 sm:px-16 md:px-16 lg:px-4">
+          <div data-aos="fade-in" class="nn-featured px-8 sm:px-14 md:px-14 lg:px-4">
             <div class="lg:bg-gray-50 dark:bg-septenary-color lg:dark:bg-tertiary-color lg:h-380 xl:h-320 w-full flex items-center justify-center lg:mb-28 xl:mb-36 mb-6">
               <div class="container lg:flex items-center lg:-space-x-32 px-0">
                 <div class="lg:w-5/6 w-full lg:h-425 h-320 bg-brown-secondary-color"></div>
@@ -147,7 +147,7 @@
               </div>
             </div>
           </div>
-          <div data-aos="fade-in" class="nn-featured px-10 sm:px-16 md:px-16 lg:px-4">
+          <div data-aos="fade-in" class="nn-featured px-8 sm:px-14 md:px-14 lg:px-4">
             <div class="lg:bg-gray-50 dark:bg-septenary-color lg:dark:bg-tertiary-color lg:h-380 xl:h-320 w-full flex items-center justify-center lg:mb-28 mb-6">
               <div class="container lg:flex items-center lg:-space-x-32 px-0">
                 <div class="lg:w-5/6 w-full lg:h-425 h-320 bg-brown-tertiary-color"></div>
@@ -166,7 +166,7 @@
       </section>
 
       <footer>
-        <div class="container px-10 sm:px-16 md:px-16 lg:px-4">
+        <div class="container px-8 sm:px-14 md:px-14 lg:px-4">
           <div class="nn-footer pt-20 sm:pt-16 pb-2 sm:pb-6 border-t-2 border-quaternary-color">
             <div class="lg:flex items-center lg:-space-x-32 justify-center text-center">
               <div class="lg:w-4/6">

@@ -64,6 +64,10 @@ img {
   display: inline;
 }
 
+.hide-mobile {
+  display: inline;
+}
+
 @media (min-width: 2050px) {
   .container {
     max-width: 1280px;
@@ -110,6 +114,10 @@ img {
   .break-mob {
     display: none;
   }
+
+  .hide-mobile {
+    display: none;
+  }
 }
 
 /* navbar scroll */
@@ -117,7 +125,7 @@ img {
   box-shadow: 0px 4px 16px 0px rgb(0 0 0 / 4%);
 }
 
-.scrolling-active .border-quaternary-color {
+.scrolling-active .border-b-2 {
   border: none;
 }
 
