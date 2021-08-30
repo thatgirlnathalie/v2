@@ -16,6 +16,7 @@ module.exports = {
         "brown-secondary-color": "#F5E7D1",
         "brown-tertiary-color": "#BF8427",
         "brown-quaternary-color": "#FFF8ED",
+        "brown-quinary-color": "#FFFAF1",
         //other-colors
         "green-primary-color": "#73C851",
       },
