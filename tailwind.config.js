@@ -27,6 +27,7 @@ module.exports = {
         "metro-semibold": "Metropolis_SemiBold, sans-serif",
       },
       height: {
+        525: "525px",
         425: "425px",
         380: "380px",
         320: "320px",
