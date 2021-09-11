@@ -46,14 +46,24 @@ module.exports = {
           "25%": { transform: "scale(1.125)" },
         },
       },
+      screens: {
+        "3xl": { min: "1520px", max: "1920px" },
+        "4xl": { min: "1921px" },
+      },
     },
     container: {
       center: true,
-      padding: "1rem",
+      padding: {
+        DEFAULT: "1rem",
+        "3xl": "6rem",
+        "4xl": "8rem",
+      },
       screens: {
         lg: "900px",
         xl: "1100px",
         "2xl": "1100px",
+        "3xl": "1520px",
+        "4xl": "1920px",
       },
     },
   },
