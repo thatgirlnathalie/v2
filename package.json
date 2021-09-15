@@ -8,18 +8,18 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ninanathalie/ninanathalie.github.io.git"
+    "url": "git+https://github.com/nameisnathalie/ninanathalie.github.io.git"
   },
   "keywords": [],
   "author": "Niña Nathalie",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/ninanathalie/ninanathalie.github.io/issues"
+    "url": "https://github.com/nameisnathalie/ninanathalie.github.io/issues"
   },
-  "homepage": "https://github.com/ninanathalie/ninanathalie.github.io#readme",
+  "homepage": "https://github.com/nameisnathalie/ninanathalie.github.io#readme",
   "devDependencies": {
-    "autoprefixer": "^10.3.1",
+    "autoprefixer": "^10.3.4",
     "postcss": "^8.3.6",
-    "tailwindcss": "^2.2.7"
+    "tailwindcss": "^2.2.15"
   }
 }

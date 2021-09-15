@@ -1,29 +1,41 @@
-// ICON THEME TOGGLE
-const themeButton = document.getElementById("theme-button");
-const iconTheme = "uil-sun";
+const switchToggle = document.querySelector("#switch-toggle");
+const html = document.querySelector("html");
+let isDarkmode = false;
+const localDarkmode = JSON.parse(localStorage.getItem("isDarkmode"));
 
-themeButton.addEventListener("click", () => {
-  themeButton.classList.toggle(iconTheme);
+const lightIcon = `<svg xmlns="http://www.w3.org/2000/svg" fill="none"  width="18" height="18" viewBox="0 0 22 22" stroke="currentColor">
+<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364 6.364l-.707-.707M6.343 6.343l-.707-.707m12.728 0l-.707.707M6.343 17.657l-.707.707M16 12a4 4 0 11-8 0 4 4 0 018 0z" />
+</svg>`;
 
-  localStorage.setItem("selected-theme", getCurrentTheme());
-  localStorage.setItem("selected-icon", getCurrentIcon());
-});
+const darkIcon = `<svg xmlns="http://www.w3.org/2000/svg" fill="none"  width="18" height="18" viewBox="0 0 22 22" stroke="currentColor">
+<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z" />
+</svg>`;
 
-// DARK MODE THEME
-if (localStorage.theme === "dark" || (!("theme" in localStorage) && window.matchMedia("(prefers-color-scheme: dark)").matches)) {
-  document.documentElement.classList.add("dark");
+if (localDarkmode) {
+  isDarkmode = localDarkmode;
+  html.classList.add("dark");
 } else {
-  document.documentElement.classList.remove("dark");
+  html.classList.remove("dark");
 }
 
-// SAVES THEME SELECTION
-document.getElementById("switchTheme").addEventListener("click", function () {
-  let htmlClasses = document.querySelector("html").classList;
-  if (localStorage.theme == "dark") {
-    htmlClasses.remove("dark");
-    localStorage.removeItem("theme");
+function toggleTheme() {
+  isDarkmode = !isDarkmode;
+  localStorage.setItem("isDarkmode", isDarkmode);
+  switchTheme();
+}
+
+function switchTheme() {
+  if (isDarkmode) {
+    html.classList.add("dark");
+    setTimeout(() => {
+      switchToggle.innerHTML = lightIcon;
+    }, 150);
   } else {
-    htmlClasses.add("dark");
-    localStorage.theme = "dark";
+    html.classList.remove("dark");
+    setTimeout(() => {
+      switchToggle.innerHTML = darkIcon;
+    }, 150);
   }
-});
+}
+
+switchTheme();
