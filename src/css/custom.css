@@ -694,10 +694,19 @@ main#project > ol > li > a.active > span {
   animation: marqueeOne 35s linear infinite;
 }
 
-.marquee-inner:hover,
-.marquee-img:hover {
-  -webkit-animation-play-state: paused;
-  animation-play-state: paused;
+@media (min-width: 1024px) {
+  .marquee-inner:hover,
+  .marquee-img:hover {
+    -webkit-animation-play-state: paused;
+    animation-play-state: paused;
+  }
+}
+
+@media (max-width: 912px) {
+  .marquee-inner span {
+    font-size: 18vw;
+    padding: 0 0.5vw;
+  }
 }
 
 /* featured text */
