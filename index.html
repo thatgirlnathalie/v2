@@ -40,7 +40,7 @@
     <div class="md:my-3.5">
       <header>
         <div class="navigation-n fixed inset-x-0 bg-white dark:bg-septenary-color z-10">
-          <nav class="container px-8 lg:px-4 3xl:px-52">
+          <nav class="container px-8 md:px-16 lg:px-14 xl:px-30 2xl:px-32 3xl:px-52 4xl:px-72">
             <div class="flex items-center flex-wrap py-4 border-b-2 border-quaternary-color">
               <a href="/">
                 <svg width="46" height="46" viewBox="0 0 46 46" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -92,30 +92,46 @@
       </header>
 
       <section>
-        <div class="container pt-20 px-8 lg:px-4 3xl:px-52 4xl:px-56">
+        <div class="container pt-20 px-8 md:px-16 lg:px-14 xl:px-30 2xl:px-32 3xl:px-52 4xl:px-72">
           <div class="nn-title border-b-2 border-quaternary-color py-10 sm:py-16">
             <div class="grid md:grid-cols-3 grid-rows-1">
               <div class="md:col-span-2">
-                <h1 class="font-ny-medium sm:text-4xl text-3xl font-medium pb-2 md:pb-5">
-                  Hello, I am Niña Nathalie 👋🏼
-                  <br class="break-mob" />
-                  I’m a UI/UX designer based in Dubai.
-                </h1>
+                <div class="featured-text relative">
+                  <!-- <p class="font-metro-semibold font-semibold tracking-tight sm:text-4xl text-3xl font-medium pb-2 md:pb-5">
+                    Hello, I am
+                    <span class="giff text-outline transform hover:-skew-x-12">Niña Nathalie</span>
+                    👋🏼
+                    <br class="break-mob" />
+                    I’m a UI/UX designer based in Dubai.
+                  </p> -->
 
-                <p class="text-justify md:text-left">
+                  <p class="font-ny-medium sm:text-4xl text-3xl font-medium pb-2 md:pb-5">
+                    Hello, I am
+                    <span class="giff">Niña Nathalie<img id="giff-img" src="src/images/hello-pug.gif" /></span>
+                    👋🏼
+                    <br class="break-mob" />
+                    I’m a UI/UX designer based in Dubai.
+                  </p>
+                </div>
+
+                <p class="text-justify md:text-left leading-relaxed xl:leading-7">
                   As a designer with over 5+ years of experience, I wear many hats. <br class="break-mob" />
                   However, UX design piqued my interest.
-                  <span class="typewriter"
+                  <!-- <span class="typewriter"
                     >Building a seamless experience for the user and much more is like
                     <span
                       class="typewriter-text text-brown-tertiary-color dark:text-brown-primary-color font-light pr-2.5 border-r border-primary-color dark:border-white"
                       data-text='[ "building a better future.", "creating experiences that makes people&apos;s lives easy.", "creating products that fit the lives and needs of users." ]'
                     ></span
+                  ></span> -->
+                  <span class="typewriter"
+                    >Building a seamless experience for the user and much more is like <span class="typewriter-text text-brown-tertiary-color dark:text-brown-primary-color font-light pr-2.5 border-r border-primary-color dark:border-white" data-text='[ "building a better future." ]'></span
                   ></span>
                 </p>
+                <!-- smtp token 06b3079c-0d7a-4a37-88a2-9ac201f8d738 -->
 
                 <div class="mt-5">
-                  <a class="nn-btn nn-btn-primary btn-arrow nodeHover" href="#"> Tell Me More <span class="arrow-icon">→</span> </a>
+                  <a class="nn-btn nn-btn-primary btn-arrow nodeHover giff" href="/about/"> Tell Me More <span class="arrow-icon">→</span> </a>
                 </div>
               </div>
             </div>
@@ -125,51 +141,53 @@
 
       <section>
         <div class="nn-featured pt-10 md:pt-16">
-          <div class="container px-8 lg:px-4 3xl:px-52">
-            <div class="nn-featured mb-12 lg:mb-20 xl:mb-28">
+          <div class="container px-8 md:px-16 lg:px-14 xl:px-30 2xl:px-32 3xl:px-52 4xl:px-72">
+            <div class="nn-featured mb-12 xl:mb-28">
               <h3 class="font-metro-semibold font-semibold text-secondary-color">Here are some of my recent works:</h3>
             </div>
           </div>
-          <div class="nn-featured px-8 sm:px-14 md:px-14 lg:px-4 xl:px-12">
-            <div class="lg:bg-gray-50 dark:bg-septenary-color lg:dark:bg-tertiary-color lg:h-380 xl:h-320 3xl:h-380 4xl:h-380 w-full flex items-center justify-center lg:mb-28 xl:mb-36 3xl:mb-48 4xl:mb-48 mb-6">
-              <div class="container lg:flex items-center lg:-space-x-32 px-0 3xl:px-40 4xl:px-44">
-                <div class="lg:w-5/6 w-full 3xl:h-425 4xl:h-525 lg:h-425 h-320 bg-brown-primary-color"></div>
-                <div class="lg:w-3/6 w-full lg:h-380 xl:h-320 3xl:h-380 4xl:h-380 bg-white dark:bg-septenary-color py-5 lg:py-10 lg:px-10 flex flex-wrap content-center">
-                  <div class="nn-featured-content">
-                    <h1 class="font-ny-medium font-medium text-2xl md:text-3xl mb-2">Easy Filter Onboarding</h1>
-                    <h2 class="font-metro-extralight font-extralight text-base md:text-lg mb-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod vero delectus saepe?</h2>
-                    <p class="mb-6">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quisquam cumque officiis repellat enim voluptatibus eaque veritatis, quia cupiditate facere facilis?</p>
-                    <p class="text-xs">UX DESIGN <span class="px-3">|</span> UX DESIGN <span class="px-3">|</span> UX DESIGN</p>
+          <div class="container px-8 md:px-16 lg:px-14 xl:px-30 2xl:px-32 3xl:px-52 4xl:px-72">
+            <div class="nn-featured">
+              <div class="xl:bg-gray-50 dark:bg-septenary-color lg:dark:bg-tertiary-color xl:h-320 3xl:h-380 4xl:h-380 w-full flex items-center justify-center xl:mb-36 3xl:mb-48 4xl:mb-48 mb-6">
+                <div class="container xl:flex items-center xl:-space-x-32 px-0">
+                  <div class="xl:w-5/6 w-full 3xl:h-525 4xl:h-525 lg:h-425 h-320 bg-brown-primary-color"></div>
+                  <div class="xl:w-3/6 w-full xl:h-320 3xl:h-380 4xl:h-380 bg-white dark:bg-septenary-color py-5 xl:py-10 xl:px-10 flex flex-wrap content-center">
+                    <div class="nn-featured-content">
+                      <h1 class="font-ny-medium font-medium text-2xl md:text-3xl mb-2">Easy Filter Onboarding</h1>
+                      <h2 class="font-metro-extralight font-extralight text-base 2xl:text-lg mb-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod vero delectus saepe?</h2>
+                      <p class="mb-6 leading-relaxed xl:leading-7">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quisquam cumque officiis repellat enim voluptatibus eaque veritatis, quia cupiditate facere facilis?</p>
+                      <p class="text-xs">UX DESIGN <span class="px-3">|</span> UX DESIGN <span class="px-3">|</span> UX DESIGN</p>
+                    </div>
                   </div>
                 </div>
               </div>
             </div>
-          </div>
-          <div data-aos="fade-in" class="nn-featured px-8 sm:px-14 md:px-14 lg:px-4 xl:px-12">
-            <div class="lg:bg-gray-50 dark:bg-septenary-color lg:dark:bg-tertiary-color lg:h-380 xl:h-320 3xl:h-380 4xl:h-380 w-full flex items-center justify-center lg:mb-28 xl:mb-36 3xl:mb-48 4xl:mb-48 mb-6">
-              <div class="container lg:flex items-center lg:-space-x-32 px-0 3xl:px-40 4xl:px-44">
-                <div class="lg:w-5/6 w-full 3xl:h-425 4xl:h-525 lg:h-425 h-320 bg-brown-secondary-color"></div>
-                <div class="lg:w-3/6 w-full lg:h-380 xl:h-320 3xl:h-380 4xl:h-380 bg-white dark:bg-septenary-color py-5 lg:py-10 lg:px-10 flex flex-wrap content-center">
-                  <div class="nn-featured-content">
-                    <h1 class="font-ny-medium font-medium text-2xl md:text-3xl mb-2">Easy Filter Onboarding</h1>
-                    <h2 class="font-metro-extralight font-extralight text-base md:text-lg mb-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod vero delectus saepe?</h2>
-                    <p class="mb-6">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quisquam cumque officiis repellat enim voluptatibus eaque veritatis, quia cupiditate facere facilis?</p>
-                    <p class="text-xs">UX DESIGN <span class="px-3">|</span> UX DESIGN <span class="px-3">|</span> UX DESIGN</p>
+            <div data-aos="fade-in" class="nn-featured">
+              <div class="xl:bg-gray-50 dark:bg-septenary-color lg:dark:bg-tertiary-color xl:h-320 3xl:h-380 4xl:h-380 w-full flex items-center justify-center xl:mb-36 3xl:mb-48 4xl:mb-48 mb-6">
+                <div class="container xl:flex items-center xl:-space-x-32 px-0">
+                  <div class="xl:w-5/6 w-full 3xl:h-525 4xl:h-525 lg:h-425 h-320 bg-brown-secondary-color"></div>
+                  <div class="xl:w-3/6 w-full xl:h-320 3xl:h-380 4xl:h-380 bg-white dark:bg-septenary-color py-5 xl:py-10 xl:px-10 flex flex-wrap content-center">
+                    <div class="nn-featured-content">
+                      <h1 class="font-ny-medium font-medium text-2xl md:text-3xl mb-2">Easy Filter Onboarding</h1>
+                      <h2 class="font-metro-extralight font-extralight text-base 2xl:text-lg mb-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod vero delectus saepe?</h2>
+                      <p class="mb-6 leading-relaxed xl:leading-7">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quisquam cumque officiis repellat enim voluptatibus eaque veritatis, quia cupiditate facere facilis?</p>
+                      <p class="text-xs">UX DESIGN <span class="px-3">|</span> UX DESIGN <span class="px-3">|</span> UX DESIGN</p>
+                    </div>
                   </div>
                 </div>
               </div>
             </div>
-          </div>
-          <div data-aos="fade-in" class="nn-featured px-8 sm:px-14 md:px-14 lg:px-4 xl:px-12">
-            <div class="lg:bg-gray-50 dark:bg-septenary-color lg:dark:bg-tertiary-color lg:h-380 xl:h-320 3xl:h-380 4xl:h-380 w-full flex items-center justify-center lg:mb-28 mb-6">
-              <div class="container lg:flex items-center lg:-space-x-32 px-0 3xl:px-40 4xl:px-44">
-                <div class="lg:w-5/6 w-full 3xl:h-425 4xl:h-525 lg:h-425 h-320 bg-brown-tertiary-color"></div>
-                <div class="lg:w-3/6 w-full lg:h-380 xl:h-320 3xl:h-380 4xl:h-380 bg-white dark:bg-septenary-color py-5 lg:py-10 lg:px-10 flex flex-wrap content-center">
-                  <div class="nn-featured-content">
-                    <h1 class="font-ny-medium font-medium text-2xl md:text-3xl mb-2">Easy Filter Onboarding</h1>
-                    <h2 class="font-metro-extralight font-extralight text-base md:text-lg mb-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod vero delectus saepe?</h2>
-                    <p class="mb-6">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quisquam cumque officiis repellat enim voluptatibus eaque veritatis, quia cupiditate facere facilis?</p>
-                    <p class="text-xs">UX DESIGN <span class="px-3">|</span> UX DESIGN <span class="px-3">|</span> UX DESIGN</p>
+            <div data-aos="fade-in" class="nn-featured">
+              <div class="xl:bg-gray-50 dark:bg-septenary-color lg:dark:bg-tertiary-color xl:h-320 3xl:h-380 4xl:h-380 w-full flex items-center justify-center xl:mb-36 3xl:mb-48 4xl:mb-48 mb-6">
+                <div class="container xl:flex items-center xl:-space-x-32 px-0">
+                  <div class="xl:w-5/6 w-full 3xl:h-525 4xl:h-525 lg:h-425 h-320 bg-brown-tertiary-color"></div>
+                  <div class="xl:w-3/6 w-full xl:h-320 3xl:h-380 4xl:h-380 bg-white dark:bg-septenary-color py-5 xl:py-10 xl:px-10 flex flex-wrap content-center">
+                    <div class="nn-featured-content">
+                      <h1 class="font-ny-medium font-medium text-2xl md:text-3xl mb-2">Easy Filter Onboarding</h1>
+                      <h2 class="font-metro-extralight font-extralight text-base 2xl:text-lg mb-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod vero delectus saepe?</h2>
+                      <p class="mb-6 leading-relaxed xl:leading-7">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quisquam cumque officiis repellat enim voluptatibus eaque veritatis, quia cupiditate facere facilis?</p>
+                      <p class="text-xs">UX DESIGN <span class="px-3">|</span> UX DESIGN <span class="px-3">|</span> UX DESIGN</p>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -179,10 +197,10 @@
       </section>
 
       <footer>
-        <div class="container px-8 lg:px-4 3xl:px-52">
+        <div class="container px-8 md:px-16 lg:px-14 xl:px-30 2xl:px-32 3xl:px-52 4xl:px-72">
           <div class="nn-footer pt-20 sm:pt-16 pb-2 sm:pb-6 border-t-2 border-quaternary-color">
-            <div class="lg:flex items-center lg:-space-x-32 justify-center text-center">
-              <div class="lg:w-4/6 3xl:w-3/6 4xl:w-3/6">
+            <div class="md:flex items-center lg:-space-x-32 justify-center text-center">
+              <div class="md:w-5/6 lg:w-4/6 3xl:w-3/6 4xl:w-3/6">
                 <h1 class="font-ny-medium pb-1 md:pb-5 sm:text-4xl text-3xl font-medium">Subscribe to my Newsletter</h1>
                 <p>Be the first to know about the latest projects that I’m working on and get updates on the curated selection of my best content.</p>
 
@@ -239,7 +257,7 @@
                             dark:border-secondary-color
                             focus:outline-none
                             uppercase
-                            hover:bg-gray-50 hover:bg-quaternary-color
+                            hover:bg-brown-quinary-color
                             dark:hover:bg-tertiary-color
                             text-xs
                             md:text-sm

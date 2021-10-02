@@ -17,8 +17,10 @@ module.exports = {
         "brown-tertiary-color": "#BF8427",
         "brown-quaternary-color": "#FFF8ED",
         "brown-quinary-color": "#FFFAF1",
+        "brown-senary-color": "#FFFBF4",
         //other-colors
         "green-primary-color": "#73C851",
+        "blue-primary-color": "#4689f2",
       },
       fontFamily: {
         "ny-medium": "NewYorkExtraLarge_Medium, serif",
@@ -47,9 +49,9 @@ module.exports = {
         },
       },
       screens: {
-        //   lg: { min: "900px", max: "1099px" },
-        //   xl: { min: "1100px", max: "1519px" },
-        "2xl": { min: "1100px" },
+        lg: { min: "900px" },
+        xl: { min: "1100px" },
+        "2xl": { min: "1280px" },
         "3xl": { min: "1520px" },
         "4xl": { min: "1920px" },
       },
@@ -59,7 +61,7 @@ module.exports = {
       screens: {
         lg: "900px",
         xl: "1100px",
-        "2xl": "1100px",
+        "2xl": "1280px",
         "3xl": "1520px",
         "4xl": "1920px",
       },
