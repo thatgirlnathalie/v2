@@ -110,6 +110,10 @@ button {
   .cs-container {
     max-width: 1100px;
   }
+
+  .img-1440 img {
+    max-width: 1440px;
+  }
 }
 
 @media (min-width: 768px) {
@@ -692,6 +696,12 @@ main#project > ol > li > a.active > span {
 .marquee .img {
   transform: translate3d(var(--move-initial), 0, 0);
   animation: marqueeOne 35s linear infinite;
+}
+
+@media (min-width: 1920px) {
+  .marquee-img {
+    width: 380%;
+  }
 }
 
 @media (min-width: 1024px) {
