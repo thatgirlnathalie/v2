@@ -623,6 +623,14 @@ main#project > ol > li > a.active > span {
   position: relative;
   white-space: nowrap;
 }
+
+@media (min-width: 1920px) {
+  .marquee-inner span {
+    font-size: 6vw !important;
+    padding: 0 1.3vw !important;
+  }
+}
+
 .marquee-inner span {
   font-size: 10vw;
   padding: 0 2vw;

@@ -32,7 +32,9 @@ module.exports = {
         525: "525px",
         425: "425px",
         380: "380px",
+        340: "340px",
         320: "320px",
+        250: "250px",
       },
       animation: {
         wiggle: "wiggle 1s ease-in-out infinite",
