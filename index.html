@@ -87,11 +87,43 @@
       </header>
 
       <section>
+        <style>
+          .heading-text span {
+            transition: color 0.2s;
+            transition-delay: 0.2s;
+          }
+
+          .heading-text span:hover {
+            transition: color 0s;
+          }
+
+          .heading-text span:nth-child(1n):hover {
+            color: #e5c697;
+          }
+
+          .heading-text span:nth-child(2n):hover {
+            color: #d6ad6f;
+          }
+
+          .heading-text span:nth-child(3n):hover {
+            color: #bf8427;
+          }
+        </style>
+
         <div class="container pt-20 px-8 md:px-16 lg:px-14 xl:px-30 2xl:px-32 3xl:px-52 4xl:px-72">
           <div class="nn-title border-b-2 border-quaternary-color py-10 sm:py-16">
             <div class="grid md:grid-cols-3 grid-rows-1">
               <div class="md:col-span-2">
-                <div class="featured-text relative">
+                <div class="featured-text relative font-ny-medium sm:text-4xl text-3xl font-medium pb-2 md:pb-5">
+                  <h1 class="heading-text">
+                    Hello, I am
+                    <div class="giff">Niña Nathalie <img id="giff-img" src="src/images/hello-pug.gif" /></div>
+                    👋🏼
+                  </h1>
+                  <h1 class="heading-text">I’m a UI/UX designer based in Dubai.</h1>
+                </div>
+
+                <!-- <div class="featured-text relative">
                   <p class="font-ny-medium sm:text-4xl text-3xl font-medium pb-2 md:pb-5">
                     Hello, I am
                     <span class="giff glitched-text nodeHover" data-text="Niña Nathalie">Niña Nathalie<img id="giff-img" src="src/images/hello-pug.gif" /></span>
@@ -99,7 +131,7 @@
                     <br class="break-mob" />
                     I’m a UI/UX designer based in Dubai.
                   </p>
-                </div>
+                </div> -->
 
                 <p class="text-justify md:text-left leading-relaxed xl:leading-7">
                   As a designer with over 5+ years of experience, I wear many hats. <br class="break-mob" />
@@ -334,6 +366,30 @@
     <script type="text/javascript" src="//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js"></script>
     <script src="src/js/newsletter.js"></script>
     <script src="src/js/hover-img.js"></script>
+
+    <script>
+      function _toArray(arr) {
+        return Array.isArray(arr) ? arr : Array.from(arr);
+      }
+
+      function makeSpans(selector) {
+        var _document$querySelect = document.querySelectorAll(selector);
+        var _document$querySelect2 = _toArray(_document$querySelect);
+        var elements = _document$querySelect2.slice(0);
+
+        return elements.map(function (element) {
+          var text = element.innerText.split("");
+          var spans = text
+            .map(function (letter) {
+              return "<span>" + letter + "</span>";
+            })
+            .join("");
+          return (element.innerHTML = spans);
+        });
+      }
+
+      makeSpans(".heading-text");
+    </script>
 
     <script src="//code.tidio.co/dkkofce3sfciujumn6f5y9gvfkgtrfas.js" async></script>
 
