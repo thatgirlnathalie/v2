@@ -94,8 +94,12 @@ button {
   font-style: normal;
 }
 
-.break-mob {
+.break-web {
   display: inline;
+}
+
+.break-mob {
+  display: none;
 }
 
 .hide-mobile {
@@ -147,7 +151,7 @@ button {
 }
 
 @media (max-width: 1100px) {
-  .break-mob {
+  .break-web {
     display: none;
   }
 }
@@ -155,6 +159,12 @@ button {
 @media (max-width: 768px) {
   .hide-mobile {
     display: none;
+  }
+}
+
+@media (max-width: 575px) {
+  .break-mob {
+    display: inline;
   }
 }
 
@@ -261,14 +271,6 @@ button {
 .typewriter-text {
   animation: cursor 1s ease-in-out infinite;
 }
-/* @keyframes cursor {
-  from {
-    border-color: $border-primary-color;
-  }
-  to {
-    border-color: transparent;
-  }
-} */
 
 /* cursor */
 .cursor {
@@ -353,7 +355,7 @@ button {
   border-radius: 50%;
   top: 0;
   left: 0;
-  border: 1px solid #d6ad6f;
+  /* border: 1px solid #d6ad6f; */
   /*states and transitions animations*/
   transform: scale(1.5);
   opacity: 1;
@@ -365,7 +367,7 @@ button {
 
 /* expand is the class you assigned with the plugin to cursor when a selected element is hovered*/
 .node.expand::before {
-  transform: scale(3);
+  transform: scale(2);
   background-color: #d6ad6f;
   opacity: 0.2;
 }
